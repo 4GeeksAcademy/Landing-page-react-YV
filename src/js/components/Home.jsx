@@ -1,7 +1,9 @@
 import React from "react";
 
+import ListCard from "./listCard.jsx";
 import Navbar from "./Navbar.jsx";
 import Jumbotron from "./Jumbotron.jsx"
+import Footer from "./footer.jsx";
 
 //include images into your bundle
 
@@ -16,6 +18,8 @@ const Home = () => {
 			<div className= "container-fluid">
 				<Jumbotron/>
 			</div>
+			<ListCard/>
+			<Footer/>
 		</div>
 	);
 };

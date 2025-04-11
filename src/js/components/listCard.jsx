@@ -37,7 +37,6 @@ const ListCard = () => {
 					))}
 				</div>
 			</div>
-			<Footer />
 		</div>
 	);
 };
